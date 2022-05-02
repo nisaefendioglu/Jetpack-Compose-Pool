@@ -1,4 +1,4 @@
 # Jetpack-Compose-Tutorial
-- Buton kullanımı
 - Text kullanımı
+- Buton kullanımı
 - onclick işlemleri
