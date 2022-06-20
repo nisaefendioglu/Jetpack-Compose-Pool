@@ -29,11 +29,11 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-private fun MyApp() {
-    Surface(
-        modifier = Modifier.fillMaxSize(),
-        color = MaterialTheme.colors.background) {
-        Greeting("Android")
+fun MyApp(names: List<String> = listOf("World", "Compose")) {
+    Column(modifier = Modifier.padding(vertical = 4.dp)) {
+        for (name in names) {
+            Greeting(name = name)
+        }
     }
 }
 
