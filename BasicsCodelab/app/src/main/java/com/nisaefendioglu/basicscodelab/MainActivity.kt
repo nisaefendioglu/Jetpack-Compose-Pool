@@ -18,6 +18,7 @@ import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.nisaefendioglu.basicscodelab.ui.theme.BasicsCodelabTheme
@@ -61,7 +62,12 @@ private fun Greeting(name: String) {
                 .weight(1f)
                 .padding(bottom = extraPadding)) {
                 Text(text = "Hello, ")
-                Text(text = name)
+                Text(
+                    text = name,
+                    style = MaterialTheme.typography.h4.copy(
+                        fontWeight = FontWeight.ExtraBold
+                    )
+                )
             }
             //Button görünümü ve tıklama event
             //remember özelliğinin kontrol ederek(expanded değişkeni) tıkladığında show less yazdırıyoruz.
