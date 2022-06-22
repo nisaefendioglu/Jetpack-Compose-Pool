@@ -42,6 +42,7 @@ fun MyApp() {
 @Composable
 private fun Greeting(name: String) {
 
+    //animations
     var expanded by remember { mutableStateOf(false) }
     val extraPadding by animateDpAsState(
         if (expanded) 48.dp else 0.dp,
@@ -68,6 +69,12 @@ private fun Greeting(name: String) {
                         fontWeight = FontWeight.ExtraBold
                     )
                 )
+                if (expanded) {
+                    Text(
+                        text = ("Composem ipsum color sit lazy, " +
+                                "padding theme elit, sed do bouncy. ").repeat(2),
+                    )
+                }
             }
             //Button görünümü ve tıklama event
             //remember özelliğinin kontrol ederek(expanded değişkeni) tıkladığında show less yazdırıyoruz.
