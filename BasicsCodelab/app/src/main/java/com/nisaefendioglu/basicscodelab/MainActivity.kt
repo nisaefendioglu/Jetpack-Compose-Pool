@@ -7,6 +7,8 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.OutlinedButton
 import androidx.compose.material.Surface
@@ -31,12 +33,8 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun MyApp(names: List<String> = listOf("World", "Compose")) {
-    Column(modifier = Modifier.padding(vertical = 4.dp)) {
-        for (name in names) {
-            Greeting(name = name)
-        }
-    }
+fun MyApp() {
+    Greetings()
 }
 
 @Composable
@@ -50,7 +48,9 @@ private fun Greeting(name: String) {
         Row(modifier = Modifier.padding(24.dp)) {
             //Button nesnesini kapsama alanın sonuna eklemek icin weight kullanıyoruz.
             //extraPadding değişkenindeki dp değeri kadar padding veriyoruz
-            Column(modifier = Modifier.weight(1f).padding(bottom = extraPadding)) {
+            Column(modifier = Modifier
+                .weight(1f)
+                .padding(bottom = extraPadding)) {
                 Text(text = "Hello, ")
                 Text(text = name)
             }
@@ -61,6 +61,15 @@ private fun Greeting(name: String) {
             ) {
                 Text(if (expanded.value) "Show less" else "Show more")
             }
+        }
+    }
+}
+
+@Composable
+private fun Greetings(names: List<String> = List(40) { "$it" } ) {
+    LazyColumn(modifier = Modifier.padding(vertical = 4.dp)) {
+        items(items = names) { name ->
+            Greeting(name = name)
         }
     }
 }
