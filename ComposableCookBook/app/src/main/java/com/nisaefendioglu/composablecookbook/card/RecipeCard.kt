@@ -1,4 +1,4 @@
-package com.nisaefendioglu.composablecookbook
+package com.nisaefendioglu.composablecookbook.card
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -26,9 +26,7 @@ fun RecipeCard(recipe: Recipe, modifier: Modifier) {
                 contentScale = ContentScale.Crop, // crop the image if it's not a square
                 modifier = Modifier
                     .fillMaxWidth()
-                    .height(300.dp)
-                    .clip(CircleShape) // clip to the circle shape
-                    .padding(35.dp))
+                    .aspectRatio(1f))
             Column(modifier = Modifier.padding(15.dp)) {
                 Text(recipe.title, style = MaterialTheme.typography.h4)
                 for (ingredient in recipe.ingredients) {
