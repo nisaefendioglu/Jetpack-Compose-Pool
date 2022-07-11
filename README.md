@@ -9,6 +9,6 @@
 - [QR Code Scanner](https://github.com/nisaefendioglu/QR-Code-Scanner)
 - [Parallax](https://github.com/nisaefendioglu/Parallax) 
 
-## Author
+## Authors
 
 - **[👩🏻‍💼 Nisa Efendioğlu](https://github.com/nisaefendioglu)**
