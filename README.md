@@ -1,4 +1,4 @@
-# Jetpack-Compose-Tutorial
+# Jetpack Compose Pool ⚡️
 🔍 A pooling pool of simple repositories developed with Jetpack Compose. 🤓
 
 ☘️ Please feel free to contribute, if you wish, you can fork a project to the repo or direct it to your project from the README area. ✨
