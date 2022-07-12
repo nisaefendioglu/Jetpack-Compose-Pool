@@ -8,6 +8,10 @@
 - [Composable Cook Book](https://github.com/nisaefendioglu/Jetpack-Compose-Tutorial/tree/master/ComposableCookBook)
 - [QR Code Scanner](https://github.com/nisaefendioglu/QR-Code-Scanner)
 - [Parallax](https://github.com/nisaefendioglu/Parallax) 
+- [JetRorty](https://github.com/developersancho/JetRorty.Android)
+- [Bundel](https://github.com/code-with-the-italians/bundel)
+- [Datmusic](https://github.com/alashow/datmusic-android)
+- [Tivi](https://github.com/chrisbanes/tivi)
 
 ## Authors
 
