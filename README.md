@@ -12,3 +12,7 @@
 ## Authors
 
 - **[👩🏻‍💼 Nisa Efendioğlu](https://github.com/nisaefendioglu)**
+
+## License
+
+Licensed under the MIT license, see [LICENSE](LICENSE) for details.
