@@ -17,6 +17,8 @@
 ## Authors
 
 - **[👩🏻‍💼 Nisa Efendioğlu](https://github.com/nisaefendioglu)**
+- **[🧑🏻‍💼 Mr.Sanchez](https://github.com/developersancho)**
+- **[🧑🏻‍💼 Ahmet Yılmaz Tekin](https://github.com/ahmetytekin)**
 
 ## License
 
