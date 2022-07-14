@@ -14,6 +14,17 @@
 - [Tivi](https://github.com/chrisbanes/tivi)
 - [Pokedex](https://github.com/zsoltk/compose-pokedex)
 - [CountryCodePicker Lib](https://github.com/UtkuGlsvn/ComposeCountryCodePicker)
+- [DisneyCompose](https://github.com/skydoves/DisneyCompose)
+- [MovieCompose](https://github.com/skydoves/MovieCompose)
+- [ComposeCookBook](https://github.com/Gurupreet/ComposeCookBook)
+- [ComposeSpotifyDesktop](https://github.com/Gurupreet/ComposeSpotifyDesktop)
+- [SlimeKT](https://github.com/kasem-sm/SlimeKT)
+- [Vitamin Compose](https://github.com/Decathlon/vitamin-compose)
+- [Praxis](https://github.com/mutualmobile/Praxis)
+- [SlackAndroidClone](https://github.com/Anmol92verma/SlackAndroidClone)
+- [Jetflix](https://github.com/yasinkacmaz/jetflix)
+- [Alkaa](https://github.com/igorescodro/alkaa)
+- [NeatFlix](https://github.com/Ericgacoki/NeatFlix)
 
 ## Authors
 
