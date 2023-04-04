@@ -25,6 +25,7 @@
 - [Jetflix](https://github.com/yasinkacmaz/jetflix)
 - [Alkaa](https://github.com/igorescodro/alkaa)
 - [NeatFlix](https://github.com/Ericgacoki/NeatFlix)
+- [Food Expiration Dates](https://github.com/lorenzovngl/FoodExpirationDates)
 
 ## Authors
 
