@@ -33,6 +33,7 @@
 - **[🧑🏻‍💼 Mr.Sanchez](https://github.com/developersancho)**
 - **[🧑🏻‍💼 Ahmet Yılmaz Tekin](https://github.com/ahmetytekin)**
 - **[🧑🏻‍💼 Utku Glsvn](https://github.com/UtkuGlsvn)**
+- **[🧑🏻‍💼 Lorenzo Vainigli](https://github.com/lorenzovngl)**
 
 ## License
 
