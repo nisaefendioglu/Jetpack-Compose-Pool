@@ -27,6 +27,7 @@
 - [NeatFlix](https://github.com/Ericgacoki/NeatFlix)
 - [Food Expiration Dates](https://github.com/lorenzovngl/FoodExpirationDates)
 - [Onboarding](https://github.com/nisaefendioglu/Onboarding)
+- [Widgets](https://github.com/nisaefendioglu/Widgets)
 
 ## Authors
 
